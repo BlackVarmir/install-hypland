@@ -1,8 +1,8 @@
-!/bin/bash
+/bin/bash
 
 # Выводим список дисков с размерами
 echo "Доступные диски:"
-lsblk -d -o NAME,SIZE,MODEL
+lsblk -d -o NAME,SIZE
 echo ""
 
 # Запросим у пользователя устройство для установки
